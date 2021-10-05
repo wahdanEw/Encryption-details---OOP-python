@@ -20,7 +20,7 @@ class User(object):
             self.stamp = encrypted_Stamp
             self.Caesar_Cipher(ID)
 
-    def get_name(self):
+    def get_details(self):
         print("\nEncrypted Name: {0}\nEcrypted Id Number: {1}\nEncrypted signature: {2}".format(self.name, self.Id,self.stamp))
         # print("",)
 
