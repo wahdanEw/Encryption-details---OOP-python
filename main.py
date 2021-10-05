@@ -7,7 +7,7 @@ def main():
 
     user_input = User()
     user_input.Encrypted_Stamp(name, user_stamp, ID)
-    user_input.get_name()
+    user_input.get_details()
 
 if __name__ == main():
     main()
